@@ -1,0 +1,6 @@
+POST http://127.0.0.1:5000/login?email=test@mail.com&password=Password
+
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYyNjczMjgwNywianRpIjoiMGNhMDVmZWQtNjg2ZS00OGExLWI3ZjMtODMyYjdjMmMzMDZlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Imdlb3JnZXNAYWRtaW4uY29tIiwibmJmIjoxNjI2NzMyODA3LCJleHAiOjE2MjY3MzM3MDd9.yjg5yHLhBKzAjkz4WOWRpgnf-teaboA_A0HjFECSYpM",
+    "message": "Login succeeded!"
+}

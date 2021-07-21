@@ -1,0 +1,16 @@
+POST http://127.0.0.1:5000/products/search
+
+product_name:Assam
+
+
+[
+  {
+    "product_description": "The Assam Tea blend from English Tea Store is a strong tea, and makes a great start to the day", 
+    "product_id": 2, 
+    "product_name": "Assam Tea - Loose Leaf", 
+    "product_price": 12, 
+    "product_quantity": 20, 
+    "product_status": true, 
+    "product_warehouse_location": "Z12"
+  }
+]

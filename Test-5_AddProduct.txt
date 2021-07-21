@@ -1,0 +1,19 @@
+POST http://127.0.0.1:5000/add_product
+
+Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYyNjczMjgwNywianRpIjoiMGNhMDVmZWQtNjg2ZS00OGExLWI3ZjMtODMyYjdjMmMzMDZlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6Imdlb3JnZXNAYWRtaW4uY29tIiwibmJmIjoxNjI2NzMyODA3LCJleHAiOjE2MjY3MzM3MDd9.yjg5yHLhBKzAjkz4WOWRpgnf-teaboA_A0HjFECSYpM
+
+
+Body 
+product_name:Pumpkin Spice Flavored Black Teaa
+product_description:Notes of cinnamon and pumpkin abound
+product_quantity:112
+product_price:13
+product_warehouse_location:Z9
+product_status:1
+
+
+
+
+{
+    "message": "You added a Product"
+}

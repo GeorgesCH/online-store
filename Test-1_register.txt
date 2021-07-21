@@ -1,0 +1,5 @@
+POST http://127.0.0.1:5000/register?email=test@mail.com&password=Password
+
+{
+    "message": "User created successfully."
+}
